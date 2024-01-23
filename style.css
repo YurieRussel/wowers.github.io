@@ -1,0 +1,75 @@
+body
+{
+    margin: 0;
+    color: rgb(198, 203, 196);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    text-shadow: 1px 1px black;
+}
+
+h1
+{
+    margin-top: 0;
+    text-shadow: 1px 1px black;
+}
+
+.first-section
+{
+    width: 100%;
+    background-image: url(AnimeAdventuresBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first-content
+{
+    width: 100%;
+    position: relative;
+}
+
+.content-text
+{
+    width: fit-content;
+    position: relative;
+}
+
+.logo
+{
+    width: 40%;    
+    position: relative;
+    animation-name: logo;
+    animation-duration: 12s;
+}
+
+@keyframes logo
+{
+    from{opacity: 0;}
+    to{opacity:100;}
+}
+
+.third-content
+{
+    display: flex;
+    justify-content: center;
+}
+
+.second-section
+{
+    background-image: url(roblox-anime-adventures.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gachaVid
+{
+    display: flex;
+    justify-content: center;
+}
+
+.gacha
+{
+    border-radius: 10px;
+}
