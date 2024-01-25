@@ -27,7 +27,7 @@ function frame()
           } 
           else 
           {
-            //position animation
+            //position animation asdasd
             pos1++;  
             element1.style.left = pos1 + "%"
           }
