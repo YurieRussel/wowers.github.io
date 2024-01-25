@@ -7,7 +7,7 @@ clearInterval(id)
 id = setInterval(frame, 5)
 function frame() 
 {
-    if (pos == 450) 
+    if (pos == 40) 
     {
       clearInterval(id);
 
@@ -20,7 +20,7 @@ function frame()
       
       function frame1()
       {
-          if (pos1 == 350) 
+          if (pos1 == 30) 
           {
             clearInterval(id1);
             sound.autoplay = true;
@@ -29,7 +29,7 @@ function frame()
           {
             //position animation
             pos1++;  
-            element1.style.left = pos1 + "px"
+            element1.style.left = pos1 + "%"
           }
       }
       
@@ -37,7 +37,7 @@ function frame()
     else 
     {
       pos++;  
-      element.style.left = pos + "px"
+      element.style.left = pos + "%"
     }
 }
 
